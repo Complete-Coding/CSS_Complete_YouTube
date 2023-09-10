@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+  }
+  .box1, .box2 {
+    position: absolute;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .box1 {
+    background-color: red;
+    left: 20px;
+    top: 60px;
+    z-index: 2;
+  }
+  .box2 {
+    background-color: aqua;
+    left: 60px;
+    top: 20px;
+    z-index: 1;
+  }
