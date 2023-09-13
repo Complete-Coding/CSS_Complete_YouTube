@@ -1,0 +1,21 @@
+.container {
+    height: 110px;
+    width: 300px;
+    border: 1px solid #000;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.box1 {
+    background-color: red;
+    float: right;
+}
+
+.box2 {
+    background-color: blue;
+    float: left;
+}
