@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transform Scale</title>
+    <style>
+        .box {
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            margin: 50px;
+            border: 1px solid black;
+            border-radius: 5px;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        #box1 { background-color: lime;}
+        #box1:hover { transform: scale(2); }
+        #box2 { background-color: blueviolet;}
+        #box2:hover { transform: scale(4); }
+        #box3 { background-color: indianred;}
+        #box3:hover { transform: scalex(2); }
+        #box4 { background-color: violet;}
+        #box4:hover { transform: scaley(3); }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Scale Twice</div>
+    <div id="box2" class="box">Scale 4 times</div>
+    <div id="box3" class="box">Scale X Twice</div>
+    <div id="box4" class="box">Scale Y Twice</div>
+</body>
+</html>
