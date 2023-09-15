@@ -11,11 +11,16 @@ header {
     min-width: 980px;
     align-items: center;
     line-height: 80px;
+    justify-content: space-between;
 }
 
 .nav_bar {
     height: 80px;
     background-color: #ffffff;
+    display: flex;
+    min-width: 550px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo_container {
@@ -27,8 +32,8 @@ header {
     background-image: url(images/myntra_logo.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 36px;
-    width: 53px;
+    height: 45px;
+    width: 60px;
     vertical-align: middle;
 }
 
@@ -38,7 +43,6 @@ header {
     font-size: 14px;
     color: #282c3f;
     font-weight: 700;
-    padding: 0 17px 28px 17px;
 }
 
 .nav_bar a:hover {
@@ -51,12 +55,12 @@ header {
 
 .header_query {
     display: flex;
-    width: 32%;
-    margin: 20px 20px 20px 40px;
+    min-width: 530px;
 }
 
 .search_icon {
     background: #f5f5f6;
+    font-weight: 300;
     height: 20px;
     box-sizing: content-box;
     padding: 8px 10px 10px;
@@ -78,4 +82,85 @@ header {
 
 .header_actions {
     display: flex;
+    min-width: 150px;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.header_action_item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    line-height: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700px;
+}
+
+.main_banner_container {
+    margin-top: 50px;
+}
+
+.main_banner {
+    width: 100%;
+}
+
+.section_header {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 70px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.offer_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sale_item {
+    height: 330px;
+    margin: 10px 0px;
+}
+
+.category_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_container {
+    background: #FAFBFC;
+    padding: 30px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    padding: 15px 0;
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.footer_column a {
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
 }
