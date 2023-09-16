@@ -117,20 +117,15 @@ header {
     font-weight: 700;
 }
 
-.offer_container {
+.sale_item_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sale_item {
     height: 330px;
     margin: 10px 0px;
-}
-
-.category_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .footer_container {
